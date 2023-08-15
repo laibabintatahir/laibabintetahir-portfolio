@@ -1,6 +1,7 @@
 import React from "react";
 import Social from "./Social";
 import Data from "./Data";
+import ScrollDowm from "./ScrollDowm";
 import "./Home.css";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
 
           <Data/>
         </div>
+        <ScrollDowm/>
       </div>
     </section>
   );
