@@ -42,7 +42,6 @@ Check out the live demo of the portfolio project [here](https://your-portfolio-d
 
 ```bash
 git clone https://github.com/laibabintatahir/my-portfolio.git
-cd react-portfolio
 ```
 
 2. Install the dependencies:
@@ -53,25 +52,17 @@ npm install
 
 ## Usage
 
-1. Update the portfolio data:
-   - Edit the `src/data/projects.js` file to include details about your projects.
-   - Update the `src/data/skills.js` file to list your skills.
-   - Modify the `src/data/about.js` file to add your personal information.
-
-2. Customize the styling:
-   - Adjust the CSS modules in the `src/components` directory to match your preferred style.
-
-3. Run the development server:
+1. Run the development server:
 
 ```bash
 npm start
 ```
 
-4. Open your web browser and navigate to `http://localhost:3000` to see the portfolio in action.
+2. Open your web browser and navigate to `http://localhost:3000` to see the portfolio in action.
 
 ## Deployment
 
-You can deploy your React portfolio project using platforms like Netlify, Vercel, GitHub Pages, or any other hosting service of your choice. Make sure to configure your deployment settings according to the hosting platform's requirements.
+Deployed on Vercel
 
 ## License
 
