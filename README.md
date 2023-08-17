@@ -70,8 +70,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for checking out my React Portfolio Project! If you have any questions or suggestions, feel free to contact me at your.laibabintatahir@gmail.com.
+Thank you for checking out my React Portfolio Project! If you have any questions or suggestions, feel free to contact me at laibabintatahir@gmail.com.
 
-[Portfolio Website](https://your-portfolio-website.com)...will be updated 
+[Portfolio Website](https://your-portfolio-website.com)
 [LinkedIn](https://www.linkedin.com/in/laiba-binta-tahir/)
 [GitHub](https://github.com/laibabintatahir)
