@@ -33,17 +33,15 @@ Check out the live demo of the portfolio project [here](https://your-portfolio-d
 - React
 - HTML5
 - CSS3 (with CSS Modules for styling)
-- JavaScript
 - [React Router](https://reactrouter.com/) for routing within the application
-- [React Spring](https://react-spring.io/) for animations
-- [FontAwesome](https://fontawesome.com/) for icons
+- [IconScout](https://iconscout.com//) for icons
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-portfolio.git
+git clone https://github.com/laibabintatahir/my-portfolio.git
 cd react-portfolio
 ```
 
@@ -81,8 +79,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for checking out my React Portfolio Project! If you have any questions or suggestions, feel free to contact me at your.email@example.com.
+Thank you for checking out my React Portfolio Project! If you have any questions or suggestions, feel free to contact me at your.laibabintatahir@gmail.com.
 
-[Portfolio Website](https://your-portfolio-website.com)
-[LinkedIn](https://www.linkedin.com/in/yourusername)
-[GitHub](https://github.com/yourusername)
+[Portfolio Website](https://your-portfolio-website.com)...will be updated 
+[LinkedIn](https://www.linkedin.com/in/laiba-binta-tahir/)
+[GitHub](https://github.com/laibabintatahir)
