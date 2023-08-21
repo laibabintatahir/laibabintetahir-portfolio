@@ -6,7 +6,8 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualifications from './components/qualifications/Qualifications';
-
+import Testominal from './components/testimonial/Testominal';
+import Contact from './components/contact/Contact';
 function App() {
   return (
     <div>
@@ -14,10 +15,12 @@ function App() {
       <Header />
       <main className='main'>
         <Home />
-        <About/>
-        <Skills/>
-        <Services/>
-        <Qualifications/>
+        <About />
+        <Skills />
+        <Services />
+        <Qualifications />
+        <Testominal />
+        <Contact />
       </main>
     </div>
   );
