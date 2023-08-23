@@ -6,8 +6,10 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualifications from './components/qualifications/Qualifications';
-import Testominal from './components/testimonial/Testominal';
+//import Testominal from './components/testimonial/Testominal';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import Scroll from './components/scroll/Scroll';
 function App() {
   return (
     <div>
@@ -19,9 +21,12 @@ function App() {
         <Skills />
         <Services />
         <Qualifications />
-        <Testominal />
+        {/* <Testominal /> */}
         <Contact />
+     
       </main>
+      <Footer/>
+      <Scroll/>
     </div>
   );
 }
