@@ -10,6 +10,7 @@ import Qualifications from './components/qualifications/Qualifications';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Scroll from './components/scroll/Scroll';
+import Work from './components/work/Work';
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <Services />
         <Qualifications />
+        <Work/>
         {/* <Testominal /> */}
         <Contact />
      
