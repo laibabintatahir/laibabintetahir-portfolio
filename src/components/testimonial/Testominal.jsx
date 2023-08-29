@@ -2,11 +2,11 @@ import React from "react";
 import { Data } from "./Data";
 import "./Testominal.css";
 
-import Swiper from "swiper";
-import { Pagination } from "swiper/modules";
-// import Swiper and modules styles
-import "swiper/css";
-import "swiper/css/pagination";
+import SwiperCore from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react"; 
+import "swiper/swiper-bundle.min.css"; 
+
+SwiperCore.use([]); 
 
 const Testominal = () => {
   return (
@@ -29,19 +29,14 @@ const Testominal = () => {
             spaceBetween: 48,
           },
         }}
-        modules={{ Pagination }}
       >
-        {Data.map(({ id, image, title, description }) => {
-          return (
-            <div className="testimonail__card" key={id}>
-              <img src={image} alt="" className="testominal__img" />
-
-              <h3 className="testominal__name">{title}</h3>
-
-              <p className="testominal__description">{description}</p>
-            </div>
-          );
-        })}
+        {Data.map(({ id, image, title, description }) => (
+          <SwiperSlide key={id} className="testimonail__card">
+            <img src={image} alt="" className="testominal__img" />
+            <h3 className="testominal__name">{title}</h3>
+            <p className="testominal__description">{description}</p>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </section>
   );

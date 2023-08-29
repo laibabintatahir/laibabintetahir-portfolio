@@ -29,6 +29,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  height: 350px;
 }
 
 .work__img {
@@ -61,8 +62,8 @@
 }
 
 .active-work {
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: #fbc779;
+  color: black;
 }
 
 @media screen and (max-width: 992px) {
