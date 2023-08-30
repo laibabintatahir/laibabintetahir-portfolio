@@ -1,45 +1,29 @@
+// Testimonial.js
 import React from "react";
-import { Data } from "./Data";
 import "./Testominal.css";
+import Data from "./Data";
 
-import SwiperCore from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react"; 
-import "swiper/swiper-bundle.min.css"; 
-
-SwiperCore.use([]); 
-
-const Testominal = () => {
+const Testimonial = () => {
   return (
-    <section className="testimonial container section">
-      <h2 className="section__title">Testimonial</h2>
-      <span className="section__subtitle">My clients say</span>
+    <>
+      <section className="skills section" id="skills">
+        <h2 className="section__title">Testimonial</h2>
+        <span className="section__subtitle">My Technical Level</span>
+      </section>
 
-      <Swiper
-        className="testimonial__container"
-        loop={true}
-        grabCursor={true}
-        spaceBetween={24}
-        pagination={{ clickable: true }}
-        breakpoints={{
-          576: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 48,
-          },
-        }}
-      >
-        {Data.map(({ id, image, title, description }) => (
-          <SwiperSlide key={id} className="testimonail__card">
-            <img src={image} alt="" className="testominal__img" />
-            <h3 className="testominal__name">{title}</h3>
-            <p className="testominal__description">{description}</p>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </section>
+      <section className="testimonial-section">
+        <div className="testimonial-container">
+          {Data.map((item) => (
+            <div key={item.id} className="testimonial-item">
+              <img src={item.image} alt={item.title} className="testimonial-image" />
+              <p className="testimonial-title">{item.title}</p>
+              <p className="testimonial-description">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
   );
 };
 
-export default Testominal;
+export default Testimonial;
