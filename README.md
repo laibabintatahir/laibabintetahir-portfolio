@@ -1,6 +1,6 @@
 # React Portfolio Project
 
-![Project Banner](link_to_banner_image.png)
+![Project Banner][![Alt text](Portfolio.png)]
 
 Welcome to my React Portfolio Project! This project showcases my skills in web development using the React framework. Here, I've designed and developed a personal portfolio website to exhibit my projects, skills, and experience in an interactive and visually appealing manner.
 
@@ -75,3 +75,5 @@ Thank you for checking out my React Portfolio Project! If you have any questions
 [Portfolio-Website](https://laiba-portfolio.vercel.app/)
 [LinkedIn](https://www.linkedin.com/in/laiba-binta-tahir/)
 [GitHub](https://github.com/laibabintatahir)
+
+[def]: Portfolio.png
