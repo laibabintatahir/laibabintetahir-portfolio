@@ -16,7 +16,7 @@ Welcome to my React Portfolio Project! This project showcases my skills in web d
 
 ## Demo
 
-Check out the live demo of the portfolio project [here](https://your-portfolio-demo-link.com).
+Check out the live demo of the portfolio project [here](https://laiba-portfolio.vercel.app/).
 
 ## Features
 
@@ -72,6 +72,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 Thank you for checking out my React Portfolio Project! If you have any questions or suggestions, feel free to contact me at laibabintatahir@gmail.com.
 
-[Portfolio Website](https://your-portfolio-website.com)
+[Portfolio-Website](https://laiba-portfolio.vercel.app/)
 [LinkedIn](https://www.linkedin.com/in/laiba-binta-tahir/)
 [GitHub](https://github.com/laibabintatahir)
