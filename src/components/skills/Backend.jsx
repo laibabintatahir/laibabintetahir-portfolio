@@ -13,16 +13,6 @@ const Backend = () => {
             <h3 className="skills__name">Node Js</h3>
             <span className="skills__level">Basic</span>
           </div></div>
-
-          <div className="skills__data">
-            <i class="bx bxs-badge-check"></i>
-          
-
-          <div>
-            <h3 className="skills__name">Mysql</h3>
-            <span className="skills__level">Basic</span>
-          </div></div>
-
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
           

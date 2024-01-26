@@ -26,7 +26,7 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Javascript</h3>
+              <h3 className="skills__name">React native</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -60,7 +60,6 @@ const Frontend = () => {
         </div>
       </div>
     </div>
-
   );
 };
 
