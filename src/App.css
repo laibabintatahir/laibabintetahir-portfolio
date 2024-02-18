@@ -15,7 +15,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 96%);
+  --body-color: #f5e9dd;
   --container-color: #fff;
 
   --body-font: "poppins", sans-serif;
@@ -140,7 +140,7 @@ img {
 .button {
   display: inline-block;
   height: 56px;
-  background-color: var(--title-color);
+  background-color: #2f5663;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1.3rem;
