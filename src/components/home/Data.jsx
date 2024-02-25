@@ -8,14 +8,16 @@ const Data = () => {
         {/* img icon*/}
       </h1>
 
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">Web & Mobile Developer</h3>
       <p className="home__description">
-        I am Front-End Developer for developing web pages
-        
+        I specialize in creating dynamic and user-friendly experiences for both
+        web and mobile platforms.
       </p>
 
-      <a href="#contact" className="button button--flex">Say Hello
-       <i class="uil uil-location-arrow"></i></a>
+      <a href="#contact" className="button button--flex">
+        Say Hello
+        <i class="uil uil-location-arrow"></i>
+      </a>
     </div>
   );
 };

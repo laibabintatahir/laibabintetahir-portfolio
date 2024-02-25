@@ -36,12 +36,24 @@ const Qualifications = () => {
                   <i className="uil uil-calender-alt"></i>
                   2021-present
                 </div>
-                <br/>
+                <br />
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Upwork Freelancer</h3>
+                <span className="qualification__sutitle">
+                Web and Mobile Developer{" "}
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  2022 - present
+                </div>
+                <br />
               </div>
             </div>
             {/* ............................... */}
@@ -61,7 +73,18 @@ const Qualifications = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-                
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Contra Freelancer</h3>
+                <span className="qualification__sutitle">
+                Web and Mobile Developer{" "}
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  2023 - present
+                </div>
+                <br />
               </div>
             </div>
           </div>

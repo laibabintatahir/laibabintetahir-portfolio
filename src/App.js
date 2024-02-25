@@ -10,8 +10,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Scroll from "./components/scroll/Scroll";
 import Work from "./components/work/Work";
-//import Testimonial from "./components/testimonial/Testominal";
-import Data from "./components/testimonial/Data";
+import TestimonialList from "./components/testimonial/Testominal";
+
 function App() {
   return (
     <div>
@@ -23,7 +23,7 @@ function App() {
         <Services />
         <Qualifications />
         <Work />
-        {/* <Testimonial data={Data} /> */}
+        <TestimonialList/> 
         <Contact />
       </main>
       <Footer />
