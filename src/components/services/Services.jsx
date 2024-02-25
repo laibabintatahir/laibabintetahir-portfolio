@@ -20,28 +20,27 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              togglestate === 1
+              togglestate === 3
                 ? "services__modal active-modal"
                 : "services__modal"
             }
           >
             <div className="services__modal-content">
               <i
-                onClick={() => toggleTab(0)}
+                onClick={() => toggleTab()}
                 className="uil uil-times services__modal-close"
               ></i>
 
               <h3 className="services__modal-title">UI/UX Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                Providing quality work to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -84,14 +83,14 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              togglestate === 2
+              togglestate === 3
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -103,8 +102,7 @@ const Services = () => {
               ></i>
 
               <h3 className="services__modal-title">Web Designer</h3>
-              <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+              <p className="services__modal-description">Providing quality
                 work to clients and companies.
               </p>
 
@@ -145,7 +143,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="srvices__title">
-              Visual <br /> Designer
+              Web <br /> Developer
             </h3>
           </div>
 
@@ -168,8 +166,7 @@ const Services = () => {
               ></i>
 
               <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+              <p className="services__modal-description">Providing quality
                 work to clients and companies.
               </p>
 
