@@ -1,15 +1,24 @@
 import React, { useRef } from "react";
 import emailjs from 'emailjs-com';
 import "./Contact.css";
+
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_si5c81i', 'template_e2xefpj', form.current, 'ZLrQH3Wrpta8_jbEW')
-     e.target.resend()
-  };
+    emailjs.sendForm('service_0ceveaj', 'template_e2xefpj', form.current,  '_oLW9QsZCnpjYCM_H')
+      .then(
+        () => {
+          alert('Email sent successfully!');
+        },
+        (error) => {
+          alert('Email sending failed. Error: ' + error.text);
+        }
+      );
+  }
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -38,10 +47,9 @@ const Contact = () => {
             <div className="contact__cart">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">0336-5613777<br/></span>
+              <span className="contact__card-data">0336-5613777</span>
               <a
-                href="https://api.whatsapp.com/send?
-              phone=0336561377=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=923365613777&text=Hello,%20I%20would%20like%20more%20information!"
                 className="contact__button"
               >
                 Write me
@@ -85,7 +93,7 @@ const Contact = () => {
             </div>
             <button className="button button--flex">
               Send Message
-              <i class="uil uil-location-arrow"></i>
+              <i className="uil uil-location-arrow"></i>
             </button>
           </form>
         </div>
