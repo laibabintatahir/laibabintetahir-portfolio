@@ -1,77 +1,66 @@
-.skills_container {
-  grid-template-columns: repeat(2, 350px);
-  column-gap: 3rem;
-  justify-content: center;
-}
- 
-.skills__content {
-  background-color: var(--container-color);
-  border: 1px solid black;
-  padding: 2rem 4rem;
-  border-radius: 1.25rem;
-}
-
-.skills__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  text-align: center;
-  margin-bottom: var(--mb-1-5);
-}
-
-.skills__box {
+.row1 {
   display: flex;
   justify-content: center;
-  column-gap: 2.5rem;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 60px;
 }
 
-.skills__group {
-  display: grid;
-  align-items: flex-start;
-  row-gap: 1rem;
-}
-
-.skills__data {
+.row2 {
   display: flex;
-  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
 }
 
-.skills .bx-badge-check {
-  font-size: 1rem;
-  color: var(--title-color);
+.skills_container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.skills__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  line-height: 18px;
+.skills_container img {
+  width: 70px;
+  height: 70px;
 }
 
-.skills__level {
-  font-size: var(--tiny-font-size);
+.skills_container a:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
 }
 
-@media screen and (max-width: 992px) {
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
   .skills_container {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .skills_container a {
+    width: 100%;
+  }
+
+  .skills_container img {
+    width: 60px;
+    height: 60px;
   }
 }
 
+/* For screens smaller than 576px */
 @media screen and (max-width: 576px) {
-    .skills_container{
-        grid-template-columns: 1fr;
+  .skills_container a {
+    width: 100%;
+  }
 
-    }
-
-    .skills__content{
-        padding: 1.5rem;
-    }
+  .skills_container img {
+    width: 60px;
+    height: 60px;
+  }
 }
-@media screen and (max-width: 350px) {
-.skills__box{
-    row-gap: 1.25rem;
-}
-.skills__name{
-    font-size: var(--small-font-size);
-}
-} 
