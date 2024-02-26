@@ -22,7 +22,7 @@ export const projectsData = [
     image: work2,
     title: "App movil",
     category: "app",
-    demo:"https://github.com/laibabintatahir/laundryapp"
+    demo:"https://laundryinfo.vercel.app/"
   },
 
   {
