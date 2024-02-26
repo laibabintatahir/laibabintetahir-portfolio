@@ -17,7 +17,7 @@ const Services = () => {
     {
       title: 'App development',
       icon: <FontAwesomeIcon icon={faCode}  style={{ fontSize: '2rem' }} />,
-      description: 'I build scalable backend systems with Node.js, Express, and MongoDB to ensure robust and maintainable architectures.',
+      description: 'I build cross-platform mobile applications using React Native and Expo, ensuring a consistent user experience across different devices.',
     },
   ];
 
