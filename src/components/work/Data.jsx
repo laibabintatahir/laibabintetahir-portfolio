@@ -15,7 +15,7 @@ export const projectsData = [
     image: work3,
     title: "Brand design",
     category: "design",
-    demo:"https://my-ecommerce-nine.vercel.app/"
+    demo:"https://libaslegrace.vercel.app/"
   },
   {
     id: 2,
