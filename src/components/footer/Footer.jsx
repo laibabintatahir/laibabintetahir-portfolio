@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://instagram.com/_aestheticanaya"
+            href="https://instagram.com/laibalifelogs"
             className="footer__social-icon"
             target="_blank"
           >
