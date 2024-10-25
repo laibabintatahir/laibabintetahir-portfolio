@@ -8,10 +8,10 @@ const Data = () => {
         {/* img icon*/}
       </h1>
 
-      <h3 className="home__subtitle">Web & Mobile Developer</h3>
+      <h3 className="home__subtitle">
+        Software Engineer</h3>
       <p className="home__description">
-        I specialize in creating dynamic and user-friendly experiences for both
-        web and mobile platforms.
+I specialize in designing and developing efficient, scalable, and high-performance software solutions for a wide range of platforms, ensuring seamless functionality and user satisfaction.
       </p>
 
       <a href="#contact" className="button button--flex">
