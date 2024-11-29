@@ -1,5 +1,4 @@
 # React Portfolio Project
-https://laiba-portfolio.vercel.app/
 Welcome to my React Portfolio Project! This project showcases my skills in web development using the React framework. Here, I've designed and developed a personal portfolio website to exhibit my projects, skills, and experience in an interactive and visually appealing manner.
 
 ## Table of Contents
